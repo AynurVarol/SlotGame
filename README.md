@@ -4,14 +4,14 @@ Bu projede, basit bir slot makinesi oyunu geliştirilmiştir. Slot makinesi, kul
 
 ### Özellikler
 
--** Kullanıcı, bahis miktarını belirleyerek oyunu başlatabilir.
--** Her slot objesinin (örneğin, bar, cherry, diamond, lemon, watermelon vb.) kazanç miktarları farklıdır.
--** Slot makinesinde slot objeleri ile belirli kombinasyonlar elde ettiğinde kazanç sağlanır.
--** Kazanıldığında, oyunda çizilen çizgilerle kazanan kombinasyonlar görsel olarak belirtilir.
--** Kazanıldığında ek olarak kazanç miktarı toplam paraya eklenir ve kazançlı kombinasyonların gösterildiği bir "Win" ekranı açılır.
--** Oyuncu için gerekli kombinasyonlar denk gelmediği takdirde oyuncu kazandığı paradan belli miktarlar kaybeder ve eksi bakiyeye düşer. 
--** Her dönüşte, kullanıcının paraya bahis yatırması ve dönüş yapması gerekir.
--** Slot makinesi, kazanç ve kayıpları takip eder ve bu bilgileri ekranda gösterir.
+- ** Kullanıcı, bahis miktarını belirleyerek oyunu başlatabilir.
+- ** Her slot objesinin (örneğin, bar, cherry, diamond, lemon, watermelon vb.) kazanç miktarları farklıdır.
+- ** Slot makinesinde slot objeleri ile belirli kombinasyonlar elde ettiğinde kazanç sağlanır.
+- ** Kazanıldığında, oyunda çizilen çizgilerle kazanan kombinasyonlar görsel olarak belirtilir.
+- ** Kazanıldığında ek olarak kazanç miktarı toplam paraya eklenir ve kazançlı kombinasyonların gösterildiği bir "Win" ekranı açılır.
+- ** Oyuncu için gerekli kombinasyonlar denk gelmediği takdirde oyuncu kazandığı paradan belli miktarlar kaybeder ve eksi bakiyeye düşer. 
+- ** Her dönüşte, kullanıcının paraya bahis yatırması ve dönüş yapması gerekir.
+- ** Slot makinesi, kazanç ve kayıpları takip eder ve bu bilgileri ekranda gösterir.
 
 ### Kurulum
 
