@@ -16,13 +16,16 @@ public class SlotMachine : MonoBehaviour
     public SlotObjectSpawner slotObjectSpawner; //SlotObjectSpawner bileþenine referans için
 
 
-    public float startingBet = 5f;
+    public float startingBet = 0f;
     public float currentBet;
     public float totalMoney = 50f;
+    public InputField moneyInputField;
 
     public Text totalMoneyText; // totalMoney metin alaný için referans
     public Text currentBetText; // currentBet metin alaný için referans
+    public Text messageText;
     public Canvas winCanvas;
+
 
     private List<SlotObjects> slotObjectList = new List<SlotObjects>();
     private List<GameObject> spawnedSlotObjects = new List<GameObject>();
@@ -59,10 +62,24 @@ public class SlotMachine : MonoBehaviour
         {
             Debug.LogError("Line Renderer references are missing!");
         }
-
-      
         
     }
+
+    public void GetMoneyInput()
+    {
+        // Kullanýcýnýn girdiði para miktarýný almak için
+        float enteredMoney = float.Parse(moneyInputField.text);
+
+        messageText.text = "";
+
+        // kullanýcýnýn girdiði para miktarýný mevcut para miktarýna ekleyelim:
+        currentBet += enteredMoney;
+       
+        Debug.Log("Kullanýcýdan alýnan para miktarý: " + enteredMoney);
+        UpdateUITexts();
+    }
+
+
 
     public void CreateSlotMachineTable()
     {
@@ -84,7 +101,15 @@ public class SlotMachine : MonoBehaviour
     }
 
     public void SpawnSlotObjectsOnClick()
-    {
+    { 
+        if( currentBet == 0)
+        {
+            messageText.text = "Lütfen para giriþi yapýn";
+            return;
+        }
+
+        //messageText.text = "";
+
         DestroyPreviousSlotObjects();
         slotObjectSpawner.SpawnObjects(tableParent);
         CheckAndDrawLinesForSameSlotObjects();
@@ -166,10 +191,10 @@ public class SlotMachine : MonoBehaviour
         //Eðer hiçbir satýrda ayný slot objeleri bulunamazsa;
         Debug.Log("Kaybettiniz! Kalan para:" + totalMoney);
 
-        totalMoney -= 10;// her kaybedildiðinde total parayý 10 azalt
+        currentBet -= 10;// her kaybedildiðinde total parayý 10 azalt
         
         // Bahis miktarýný kayýplardan çýkarýn
-        totalMoney -= currentBet;
+        //totalMoney -= currentBet;
         UpdateUITexts();
 
         // Yeni bahis miktarýný ayarlayýn (isteðe baðlý olarak)
