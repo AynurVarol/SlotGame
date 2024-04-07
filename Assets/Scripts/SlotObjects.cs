@@ -30,22 +30,7 @@ public class SlotObjects : MonoBehaviour
     
 
 
-    /* SlotObjects sýnýfýnda Equals ve GetHashCode metodlarýný override ediyoruz
-    public override bool Equals(object obj)
-    {
-        if (obj == null || GetType() != obj.GetType())
-        {
-            return false;
-        }
-
-        SlotObjects other = (SlotObjects)obj;
-        return ID == other.ID && Name == other.Name;
-    }
-
-    public override int GetHashCode()
-    {
-        return (ID << 16) ^ Name.GetHashCode();
-    }*/
+  
 
 
 
