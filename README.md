@@ -20,8 +20,9 @@ Bu projede, basit bir slot makinesi oyunu geliştirilmiştir. Slot makinesi, kul
 ### Nasıl Oynanır?
 
 1. Oyunu başlatmak için "Entry" butonuna tıklayın.
-2. Bahis miktarını seçin ve "Spin" butonuna tıklayarak döndürün.
-3. Kazanılan veya kaybedilen miktarı takip edin.
-4. Kazanıldığında, "Win" ekranını görmek için bir süre bekleyin ve ardından oyunu devam ettirin.
-5. Oyunu bitirmek için "X" butonuna tıklayınve oyundan çıkış yapın.
+2. Bahis için koymak istediğiniz parayı belirleyin ve oyun ekranının son alt kısmında bulunan "Approval" butonuna tıklayın.
+3. "Spin" butonuna tıklayarak döndürün.
+4. Kazanılan veya kaybedilen miktarı takip edin.
+5. Kazanıldığında, "Win" ekranını görmek için bir süre bekleyin ve ardından oyunu devam ettirin.
+6. Oyunu bitirmek için "X" butonuna tıklayınve oyundan çıkış yapın.
 
