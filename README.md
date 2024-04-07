@@ -10,7 +10,7 @@ Bu projede, basit bir slot makinesi oyunu geliştirilmiştir. Slot makinesi, kul
 -  Kazanıldığında, oyunda çizilen çizgilerle kazanan kombinasyonlar görsel olarak belirtilir.
 -  Kazanıldığında ek olarak kazanç miktarı toplam paraya eklenir ve kazançlı kombinasyonların gösterildiği bir "Win" ekranı açılır.
 -  Oyuncu için gerekli kombinasyonlar denk gelmediği takdirde oyuncu kazandığı paradan belli miktarlar kaybeder ve eksi bakiyeye düşer. 
--  Her dönüşte, kullanıcının paraya bahis yatırması ve dönüş yapması gerekir.
+-  Oyuncu, bakiyesi 0'a eşitlendiği zaman oynamak istediği kadar parayı bahis olarak yatırmalıdır.
 -  Slot makinesi, kazanç ve kayıpları takip eder ve bu bilgileri ekranda gösterir.
 
 ### Kurulum
