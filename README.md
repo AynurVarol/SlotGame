@@ -24,5 +24,5 @@ Bu projede, basit bir slot makinesi oyunu geliştirilmiştir. Slot makinesi, kul
 3. "Spin" butonuna tıklayarak döndürün.
 4. Kazanılan veya kaybedilen miktarı takip edin.
 5. Kazanıldığında, "Win" ekranını görmek için bir süre bekleyin ve ardından oyunu devam ettirin.
-6. Oyunu bitirmek için "X" butonuna tıklayınve oyundan çıkış yapın.
+6. Oyunu bitirmek için "X" butonuna tıklayın ve oyundan çıkış yapın.
 
