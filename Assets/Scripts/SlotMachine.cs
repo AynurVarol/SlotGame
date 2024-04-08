@@ -108,7 +108,7 @@ public class SlotMachine : MonoBehaviour
             return;
         }
 
-        //messageText.text = "";
+       
 
         DestroyPreviousSlotObjects();
         slotObjectSpawner.SpawnObjects(tableParent);
@@ -192,14 +192,9 @@ public class SlotMachine : MonoBehaviour
         Debug.Log("Kaybettiniz! Kalan para:" + totalMoney);
 
         currentBet -= 10;// her kaybedildiðinde total parayý 10 azalt
-        
-        // Bahis miktarýný kayýplardan çýkarýn
-        //totalMoney -= currentBet;
+       
         UpdateUITexts();
 
-        // Yeni bahis miktarýný ayarlayýn (isteðe baðlý olarak)
-        // Örneðin, her kaybettiðinizde bahsi azaltabilirsiniz
-        // currentBet -= 1f;
     }
 
     public void CloseWinCanvas()
