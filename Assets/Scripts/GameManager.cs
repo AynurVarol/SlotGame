@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
 
     public void RestartGame()
     {
-        // Oyunu yeniden baþlat
+      
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 

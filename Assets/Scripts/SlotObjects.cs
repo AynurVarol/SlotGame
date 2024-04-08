@@ -5,8 +5,8 @@ using UnityEngine;
 public class SlotObjects : MonoBehaviour
 {
     
-    public int ID; // Objeye özgü benzersiz kimlik
-    public string Name; // Objenin adý veya sembolü (opsiyonel)
+    public int ID; // objenin kimliði
+    public string Name; // Objenin adý 
    public float  Multiplier; // Objeye ait çarpan deðeri
     public int Order;
     
