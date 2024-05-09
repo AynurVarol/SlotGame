@@ -1,6 +1,6 @@
 # SlotGame
 ## Slot Machine
-Bu projede, basit bir slot makinesi oyunu geliştirilmiştir. Slot makinesi, kullanıcının bahis yaparak döndürebileceği ve belirli kombinasyonlar elde ettiğinde kazanç elde edebileceği bir oyun türüdür.
+Bu projede,Unity 2D ve C# kullanılarak basit bir slot makinesi oyunu geliştirilmiştir. Slot makinesi, kullanıcının bahis yaparak döndürebileceği ve belirli kombinasyonlar elde ettiğinde kazanç elde edebileceği bir oyun türüdür.
 
 ### Özellikler
 
